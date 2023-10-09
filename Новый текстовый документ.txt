@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int num;
+   int num2;
+   int num3;
+   cout <<"Введите числО"<<endl;
+   cin >>num;
+   num2=num * num;
+   num3=num2*num;
+   cout<<"Квадрат "<< num << " = " << num2 << endl;
+   cout<<"Куб "<< num << " = " << num3; 
+   
+    return 0;
+}
